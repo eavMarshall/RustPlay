@@ -1,6 +1,6 @@
 FROM rust:1.67
 
-WORKDIR /mnt/c/Users/eavmarsh/Documents/GitHub/RustPlay
+WORKDIR .
 
 COPY . .
 
