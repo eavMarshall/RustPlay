@@ -7,4 +7,4 @@ COPY . .
 RUN cargo install --path .
 RUN cargo install wasm-pack
 
-CMD ["myapp"]
+CMD ["wasm-pack build --target web"]
