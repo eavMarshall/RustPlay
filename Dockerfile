@@ -1,9 +1,10 @@
-FROM rust:1.67
+FROM rust:1.74
 
 WORKDIR .
 
 COPY . .
 
 RUN cargo install --path .
+RUN cargo install wasm-pack
 
 CMD ["myapp"]

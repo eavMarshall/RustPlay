@@ -1,3 +1,5 @@
+Playing with rust and web assembly
+
 Using rust docker https://hub.docker.com/_/rust
 
 <code>$ docker build -t my-rust-app .</code>
