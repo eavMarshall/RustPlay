@@ -1,0 +1,14 @@
+{
+  "name": "myapp",
+  "version": "0.1.0",
+  "files": [
+    "myapp_bg.wasm",
+    "myapp.js",
+    "myapp.d.ts"
+  ],
+  "module": "myapp.js",
+  "types": "myapp.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
