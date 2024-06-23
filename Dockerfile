@@ -1,10 +1,8 @@
 FROM rust:1.74
 
-WORKDIR .
+WORKDIR /app
 
-COPY . .
+COPY /app /app
 
 RUN cargo install --path .
 RUN cargo install wasm-pack
-
-CMD ["wasm-pack build --target web"]

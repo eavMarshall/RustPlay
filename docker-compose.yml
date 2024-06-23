@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  wasm-builder:
+    build: .
+    volumes:
+      - .:/app
+    command: wasm-pack build app --target web --out-dir ./pkg
